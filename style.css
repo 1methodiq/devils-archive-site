@@ -1,0 +1,31 @@
+/* The Open Archive: local system fonts, no remote assets. */
+:root{color-scheme:dark;--void:#10110f;--panel:#1a1b17;--bone:#eee5d2;--muted:#c0b8a6;
+--rule:#4d493e;--red:#832e27;--focus:#f3d391}
+*{box-sizing:border-box}html{font-size:100%}body{margin:0;background:var(--void);color:var(--bone);
+font:1.08rem/1.7 Georgia,'Times New Roman',serif}a{color:inherit;text-underline-offset:.23em;
+text-decoration-thickness:1px;overflow-wrap:anywhere}a:hover{text-decoration-thickness:2px}
+a:focus-visible{outline:3px solid var(--focus);outline-offset:5px}p{max-width:68ch}
+.shell{width:min(72rem,100% - 2.5rem);margin:auto}header{padding:1.25rem 0;border-bottom:1px solid var(--rule)}
+.masthead{display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap}
+.brand,.eyebrow,.meta,nav,footer{font-family:'Courier New',Courier,monospace}.brand{font-size:.9rem;
+letter-spacing:.06em;font-weight:bold;text-decoration:none}nav{display:flex;flex-wrap:wrap;gap:.3rem 1.25rem;
+font-size:.9rem}nav a{display:inline-flex;align-items:center;min-height:44px}.skip{position:absolute;
+top:-10rem;left:1rem;background:var(--bone);color:var(--void);padding:.7rem;z-index:2}.skip:focus{top:1rem}
+main{min-height:60vh;padding:3rem 0 4rem}.hero{padding:1rem 0 2rem;border-bottom:3px solid var(--red);
+margin-bottom:2.5rem}.eyebrow{text-transform:uppercase;letter-spacing:.14em;font-size:.8rem;color:var(--muted)}
+h1,h2,h3{font-weight:normal;line-height:1.15;text-wrap:balance}h1{font-size:clamp(2.3rem,8vw,4.6rem);
+letter-spacing:-.035em;margin:.65rem 0 1.2rem;max-width:20ch}h2{font-size:1.8rem;margin:2.5rem 0 1rem}
+h3{font-size:1.5rem;margin:.7rem 0}.lead{font-size:1.22rem;max-width:55ch}.meta,.caption{font-size:.9rem;
+color:var(--muted)}.files{list-style:none;padding:0;display:grid;gap:1rem}.file{padding:1.4rem;
+background:var(--panel);border:1px solid var(--rule)}.file p:last-child{margin-bottom:0}
+.button{display:inline-block;border:1px solid var(--muted);padding:.65rem 1rem;min-height:44px;
+text-decoration:none;margin:.6rem 0}.notice{border-left:3px solid var(--red);padding:.2rem 1.2rem;
+margin:2rem 0;color:var(--muted)}.sources{padding-left:1.5rem}.sources li{padding:.8rem 0;
+border-bottom:1px solid var(--rule);overflow-wrap:anywhere}.sources p{margin:.35rem 0;font-size:.95rem}
+.documents{display:grid;gap:2rem}figure{margin:0}figure img{display:block;max-width:100%;height:auto;
+max-height:70rem;object-fit:contain;background:#e9dfc8}figcaption{padding:.8rem 0;max-width:68ch;
+overflow-wrap:anywhere}footer{border-top:1px solid var(--rule);padding:1.5rem 0 2rem;font-size:.8rem;
+color:var(--muted)}footer p{margin:.4rem 0}.prose h1{font-size:clamp(2.2rem,6vw,3.6rem)}
+@media(min-width:48rem){main{padding-top:4rem}.files{grid-template-columns:1fr 1fr}.documents{
+grid-template-columns:1fr 1fr}.hero{padding-bottom:3rem}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto}}
